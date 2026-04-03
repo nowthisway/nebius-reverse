@@ -2,7 +2,7 @@ export const config = {
   runtime: 'edge',
 };
 
-const UPSTREAM_BASE = 'https://api.tokenfactory.eu-west1.nebius.com';
+const UPSTREAM_BASE = 'https://api.studio.nebius.ai';
 
 // 边缘环境全局缓存，加速后续请求
 let cachedKeys: string[] =[];
